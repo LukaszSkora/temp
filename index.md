@@ -44,7 +44,7 @@ Zadanie Cleans to Core - Porównaj strukturę danych oraz dane pomiędzy tabelam
 ##### Compare data types and the data
 I campared data types of the columns from `[CLEANSE_AdventureWorks2017]` and `[CORE_AdventureWorks2017]` using `EXCEPT` both ways. Columns transformations were needed in many cases.
 ##### Results
-In ***all cases*** data types are the same. In **most cases*** the data is identical. In some cases there are NULLs in one table where there are empty string in the other. Also, `[Revision]` column can have different values.
+In ***all cases*** data types are the same. In ***most cases*** the data is identical. In some cases there are NULLs in one table where there are empty string in the other. Also, `[Revision]` column can have different values.
 [Used SQL queries and detailed results](https://drive.google.com/file/d/1225ZRuN0BdCbv-s4WLymOojJw6I0yBuH/view?usp=sharing)
 ### Exercise 4
 Zadanie Core to DataMart - Porównaj strukturę danych oraz dane pomiędzy tabelami według dokumentacji znajdującej się w folderze ‘Core to DataMart mappings’ . Diagramy z folderu ‘ETL Diagrams’ mają charakter pomocniczy wskazujący na funkcje, których należy użyć podczas pisania zapytań SQL. Uwzględnij transformacje w zapytaniach przedstawione w folderze ‘Data flows’ (transformacje dla poszczególnych tabel) . Do wykonania zadania pomocne będzie korzystanie z pliku ‘Data Structure’. Zapisz query oraz zrzuty ekranu z bazy z wynikami zapytania.
