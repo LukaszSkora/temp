@@ -1,4 +1,4 @@
-﻿## ETL Training  Exercises Solution 
+﻿## ETL Training Exercises Solution 
 ### Prep work
 I created SQL Server instance and restored backed up databases:
  - STAGE_AdventureWorks2017
@@ -56,3 +56,6 @@ Data types in ***most cases***  were identical, except for some mostly minor dif
 Also, there were some discrepancies between models (both diagrams and tables) and the tables.
 I had problems (regrettably, I didn't manage to overcome them) to fully recreate transformations for one table, namely `[DATAMART_AdventureWorks2017].[dbo].[AdditionalContactInfo]`.
 [Used SQL queries and detailed results](https://drive.google.com/file/d/1QPKaUv1iITIREVe9qA1YUVDOEI8ni3sW/view?usp=sharing)
+
+### SQL 1/2
+[Used SQL queries and remarks](https://drive.google.com/file/d/14QZlRBGIFQiirznk66lxQjWBZVzYzywM/view?usp=sharing)
