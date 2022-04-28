@@ -1,7 +1,7 @@
 ﻿# ETL Training Exercises Solution 
-##Part 2
+## Part 2
 [Used SQL queries](https://drive.google.com/file/d/1esenbZvCRx5JWhMqt_8SyAbdAB--_fKx/view?usp=sharing)
-##Part 3
+## Part 3
 ### Prep work
 I created SQL Server instance and restored backed up databases:
  - STAGE_AdventureWorks2017
