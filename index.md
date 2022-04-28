@@ -1,11 +1,13 @@
-﻿## ETL Training Exercises Solution 
+﻿# ETL Training Exercises Solution 
+##Part 2
+[Used SQL queries](https://drive.google.com/file/d/1esenbZvCRx5JWhMqt_8SyAbdAB--_fKx/view?usp=sharing)
+##Part 3
 ### Prep work
 I created SQL Server instance and restored backed up databases:
  - STAGE_AdventureWorks2017
  - CLEANSE_AdventureWorks2017
  - CORE_AdventureWorks2017
  - DATAMART_AdventureWorks2017
-
 ### Exercise 1
 Zadanie File to Stage - porównaj dane pomiędzy tabelami z folderu ‘source_files’ oraz tabelami z bazy STAGE. Tabele [HumanResources].[Department], [HumanResources].[Shift] oraz [Person].[AddressType] porównaj za pomocą odpowiednich formuł w Excel, pozostałe zaimportuj do bazy STAGE i porównaj pisząc odpowiednie zapytania.
 #### Solution - SSMS part
@@ -56,6 +58,3 @@ Data types in ***most cases***  were identical, except for some mostly minor dif
 Also, there were some discrepancies between models (both diagrams and tables) and the tables.
 I had problems (regrettably, I didn't manage to overcome them) to fully recreate transformations for one table, namely `[DATAMART_AdventureWorks2017].[dbo].[AdditionalContactInfo]`.
 [Used SQL queries and detailed results](https://drive.google.com/file/d/1QPKaUv1iITIREVe9qA1YUVDOEI8ni3sW/view?usp=sharing)
-
-### SQL 1/2
-[Used SQL queries and remarks](https://drive.google.com/file/d/14QZlRBGIFQiirznk66lxQjWBZVzYzywM/view?usp=sharing)
